@@ -1,0 +1,1494 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    border: none;
+    outline: none;
+    background: transparent;
+    vertical-align: baseline;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+/////////////////////////////////PRIMER DIBUJO/////////////////////////////////
+
+////////////////////ESTRUCTURA///////////////////
+
+#gridContainer {
+    display: grid;
+    grid-template-rows: 50px 50px 50px 50px 50px 50px 50px 50px 50px 50px 50px 50px 50px 50px 50px 50px 50px 50px 50px 50px 50px;
+    grid-template-columns: 50px 50px 50px 50px 50px 50px 50px 50px 50px 50px 50px 50px 50px 50px 50px 50px 50px 50px;
+    visibility: visible;
+}
+
+////////////////////COLORES///////////////////
+.black {
+    background-color: black;
+    width: 50px;
+    height: 50px;
+}
+.blue {
+    background-color: #0c7ef9;
+    width: 50px;
+    height: 50px;
+}
+.skin {
+    background-color:#f5ba7f;
+    width: 50px;
+    height: 50px;
+}
+.red {  
+    background-color:#e93f33;
+    width: 50px;
+    height: 50px;
+}
+
+////////////////////DIVS/PIXELS////////////////////
+
+#divUno {
+    grid-row: 1;
+    grid-column: 2;
+}
+#divDos {
+    grid-row: 1;
+    grid-column: 13;
+}
+#divTres {
+    grid-row: 2;
+    grid-column: 1;
+}
+#divCuatro {
+    grid-row: 2;
+    grid-column: 3;
+}
+#divCinco {
+    grid-row: 2;
+    grid-column: 12;
+}
+#divSeis {
+    grid-row: 2;
+    grid-column: 14;
+}
+#divSiete {
+    grid-row: 3;
+    grid-column: 1;
+}
+#divOcho {
+    grid-row: 3;
+    grid-column: 4;
+}
+#divNueve {
+    grid-row: 3;
+    grid-column: 5;
+}
+#divDiez {
+    grid-row: 3;
+    grid-column: 6;
+}
+#divOnce {
+    grid-row: 3;
+    grid-column: 7;
+}
+#divDoce {
+    grid-row: 3;
+    grid-column: 8;
+}
+#divTrece {
+    grid-row: 3;
+    grid-column: 9;
+}
+#divCatorce {
+    grid-row: 3;
+    grid-column: 10;
+}
+#divQuince {
+    grid-row: 3;
+    grid-column: 11;
+}
+#divDieciseis {
+    grid-row: 3;
+    grid-column: 14;
+}
+#divDiecisiete {
+    grid-row: 4;
+    grid-column: 1;
+}
+#divDieciocho {
+    grid-row: 4;
+    grid-column: 3;
+}
+#divDiecinueve {
+    grid-row: 4;
+    grid-column: 4;
+}
+#divVeinte {
+    grid-row: 4;
+    grid-column: 5;
+}
+#divVeintiuno {
+    grid-row: 4;
+    grid-column: 9;
+}
+#divVeintidos {
+    grid-row: 4;
+    grid-column: 10;
+}
+#divVeintitres {
+    grid-row: 4;
+    grid-column: 11;
+}
+#divVeinticuatro {
+    grid-row: 4;
+    grid-column: 12;
+}
+#divVeinticinco {
+    grid-row: 4;
+    grid-column: 14;
+}
+#divVeintiseis {
+    grid-row: 5;
+    grid-column: 2;
+}
+#divVeintisiete {
+    grid-row: 5;
+    grid-column: 3;
+}
+#divVeintiocho {
+    grid-row: 5;
+    grid-column: 4;
+}
+#divVeintinueve {
+    grid-row: 5;
+    grid-column: 5;
+}
+#divTreinta {
+    grid-row: 5;
+    grid-column: 7;
+}
+#divTreintauno {
+    grid-row: 5;
+    grid-column: 9;
+}
+#divTreintados {
+    grid-row: 5;
+    grid-column: 10;
+}
+#divTreintacuatro {
+    grid-row: 5;
+    grid-column: 11;
+}
+#divTreintacinco {
+    grid-row: 5;
+    grid-column: 12;
+}
+#divTreintaseis {
+    grid-row: 5;
+    grid-column: 13;
+}
+#divTreintasiete {
+    grid-row: 6;
+    grid-column: 2;
+}
+#divTreintaocho {
+    grid-row: 6;
+    grid-column: 3;
+}
+#divTreintanueve {
+    grid-row: 6;
+    grid-column: 4;
+}
+#divCuarenta {
+    grid-row: 6;
+    grid-column: 5;
+}
+#divCuarentauno {
+    grid-row: 6;
+    grid-column: 9;
+}
+#divCuarentados {
+    grid-row: 6;
+    grid-column: 10;
+}
+#divCuarentatres{
+    grid-row: 6;
+    grid-column: 11;
+}
+#divCuarentacuatro {
+    grid-row: 6;
+    grid-column: 12;
+}
+#divCuarentacinco {
+    grid-row: 6;
+    grid-column: 13;
+}
+#divCuarentaseis {
+    grid-row: 7;
+    grid-column: 2;
+}
+#divCuarentasiete {
+    grid-row: 7;
+    grid-column: 3;
+}
+#divCuarentaocho {
+    grid-row: 7;
+    grid-column: 4;
+}
+#divCuarentanueve {
+    grid-row: 7;
+    grid-column: 5;
+}
+#divCincuenta {
+    grid-row: 7;
+    grid-column: 7;
+}
+#divCincuentauno {
+    grid-row: 7;
+    grid-column: 9;
+}
+#divCincuentados {
+    grid-row: 7;
+    grid-column: 10;
+}
+#divCincuentatres {
+    grid-row: 7;
+    grid-column: 11;
+}
+#divCincuentacuatro {
+    grid-row: 7;
+    grid-column: 12;
+}
+#divCincuentacinco {
+    grid-row: 7;
+    grid-column: 13;
+}
+#divCincuentaseis {
+    grid-row: 8;
+    grid-column: 2;
+}
+#divCincuentasiete {
+    grid-row: 8;
+    grid-column: 3;
+}
+#divCincuentaocho {
+    grid-row: 8;
+    grid-column: 4;
+}
+#divCincuentanueve {
+    grid-row: 8;
+    grid-column: 5;
+}
+#divSesenta {
+    grid-row: 8;
+    grid-column: 6;
+}
+#divSesentauno {
+    grid-row: 8;
+    grid-column: 7;
+}
+#divSesentados {
+    grid-row: 8;
+    grid-column: 8;
+}
+#divSesentatres {
+    grid-row: 8;
+    grid-column: 9;
+}
+#divSesentacuatro {
+    grid-row: 8;
+    grid-column: 10;
+}
+#divSesentacinco {
+    grid-row: 8;
+    grid-column: 11;
+}
+#divSesentaseis {
+    grid-row: 8;
+    grid-column: 12;
+}
+#divSesentasiete {
+    grid-row: 8;
+    grid-column: 13;
+}
+#divSesentaocho {
+    grid-row: 9;
+    grid-column: 2;
+}
+#divSesentanueve {
+    grid-row: 9;
+    grid-column: 3;
+}
+#divSetenta {
+    grid-row: 9;
+    grid-column: 4;
+}
+#divSetentauno {
+    grid-row: 9;
+    grid-column: 5;
+}
+#divSetentados {
+    grid-row: 9;
+    grid-column: 6;
+}
+#divSetentatres {
+    grid-row: 9;
+    grid-column: 7;
+}
+#divSetentacuatro {
+    grid-row: 9;
+    grid-column: 8;
+}
+#divSetentacinco {
+    grid-row: 9;
+    grid-column: 9;
+}
+#divSetentaseis {
+    grid-row: 9;
+    grid-column: 10;
+}
+#divSetentasiete {
+    grid-row: 9;
+    grid-column: 11;
+}
+#divSetentaocho {
+    grid-row: 9;
+    grid-column: 12;
+}
+#divSetentanueve {
+    grid-row: 9;
+    grid-column: 13;
+}
+#divOchenta {
+    grid-row: 10;
+    grid-column: 2;
+}
+#divOchentauno {
+    grid-row: 10;
+    grid-column: 3;
+}
+#divOchentados {
+    grid-row: 10;
+    grid-column: 4;
+}
+#divOchentatres {
+    grid-row: 10;
+    grid-column: 5;
+}
+#divOchentacuatro {
+    grid-row: 10;
+    grid-column: 6;
+}
+#divOchentacinco {
+    grid-row: 10;
+    grid-column: 7;
+}
+#divOchentaseis {
+    grid-row: 10;
+    grid-column: 8;
+}
+#divOchentasiete {
+    grid-row: 10;
+    grid-column: 9;
+}
+#divOchentaocho {
+    grid-row: 10;
+    grid-column: 10;
+}
+#divOchentanueve {
+    grid-row: 10;
+    grid-column: 11;
+}
+#divNoventa {
+    grid-row: 10;
+    grid-column: 12;
+}
+#divNoventauno {
+    grid-row: 10;
+    grid-column: 13;
+}
+#divNoventados {
+    grid-row: 10;
+    grid-column: 14;
+}
+#divNoventatres{
+    grid-row: 11;
+    grid-column: 2;
+}
+#divNoventacuatro {
+    grid-row: 11;
+    grid-column: 3;
+}
+#divNoventacinco {
+    grid-row: 11;
+    grid-column: 4;
+}
+#divNoventaseis {
+    grid-row: 11;
+    grid-column: 5;
+}
+#divNoventasiete {
+    grid-row: 11;
+    grid-column: 6;
+}
+#divNoventaocho {
+    grid-row: 11;
+    grid-column: 7;
+}
+#divNoventanueve {
+    grid-row: 11;
+    grid-column: 8;
+}
+#divCien {
+    grid-row: 11;
+    grid-column: 9;
+}
+#divCienuno {
+    grid-row: 11;
+    grid-column: 10;
+}
+#divCiendos {
+    grid-row: 11;
+    grid-column: 11;
+}
+#divCientres {
+    grid-row: 11;
+    grid-column: 12;
+}
+#divCiencuatro {
+    grid-row: 11;
+    grid-column: 13;
+}
+#divCiencinco {
+    grid-row: 11;
+    grid-column: 14;
+}
+#divCienseis {
+    grid-row: 11;
+    grid-column: 15;
+}
+#divCiensiete {
+    grid-row: 12;
+    grid-column: 2;
+}
+#divCienocho {
+    grid-row: 12;
+    grid-column: 3;
+}
+#divCiennueve {
+    grid-row: 12;
+    grid-column: 4;
+}
+#divDoscientos {
+    grid-row: 12;
+    grid-column: 5;
+}
+#divDoscientosuno {
+    grid-row: 12;
+    grid-column: 6;
+}
+#divDoscientosdos {
+    grid-row: 12;
+    grid-column: 7;
+}
+#divDoscientostres {
+    grid-row: 12;
+    grid-column: 8;
+}
+#divDoscientoscuatro {
+    grid-row: 12;
+    grid-column: 9;
+}
+#divDoscientoscinco {
+    grid-row: 12;
+    grid-column: 10;
+}
+#divDoscientosseis {
+    grid-row: 12;
+    grid-column: 11;
+}
+#divDoscientossiete {
+    grid-row: 12;
+    grid-column: 15;
+}
+#divDoscientosocho {
+    grid-row: 12;
+    grid-column: 16;
+}
+#divDoscientosnueve {
+    grid-row: 13;
+    grid-column: 4;
+}
+#divTrescientos {
+    grid-row: 13;
+    grid-column: 5;
+}
+#divTrescientosuno {
+    grid-row: 13;
+    grid-column: 6;
+}
+#divTrescientosdos {
+    grid-row: 13;
+    grid-column: 7;
+}
+#divTrescientostres {
+    grid-row: 13;
+    grid-column: 8;
+}
+#divTrescientoscuatro {
+    grid-row: 13;
+    grid-column: 9;
+}
+#divTrescientoscinco {
+    grid-row: 13;
+    grid-column: 10;
+}
+#divTrescientosseis {
+    grid-row: 13;
+    grid-column: 12;
+}
+#divTrescientossiete {
+    grid-row: 13;
+    grid-column: 13;
+}
+#divTrescientosocho {
+    grid-row: 13;
+    grid-column: 14;
+}
+#divTrescientosnueve {
+    grid-row: 13;
+    grid-column: 16;
+}
+#divCuatrocientos {
+    grid-row: 13;
+    grid-column: 17;
+}
+#divCuatrocientosuno {
+    grid-row: 14;
+    grid-column: 3;
+}
+#divCuatrocientosdos {
+    grid-row: 14;
+    grid-column: 4;
+}
+#divCuatrocientostres {
+    grid-row: 14;
+    grid-column: 5;
+}
+#divCuatrocientoscuatro {
+    grid-row: 14;
+    grid-column: 6;
+}
+#divCuatrocientoscinco {
+    grid-row: 14;
+    grid-column: 7;
+}
+#divCuatrocientosseis {
+    grid-row: 14;
+    grid-column: 8;
+}
+#divCuatrocientossiete {
+    grid-row: 14;
+    grid-column: 9;
+}
+#divCuatrocientosocho {
+    grid-row: 14;
+    grid-column: 11;
+}
+#divCuatrocientosnueve {
+    grid-row: 14;
+    grid-column: 12;
+}
+#divQuinientos {
+    grid-row: 14;
+    grid-column: 13;
+}
+#divQuinientosuno {
+    grid-row: 14;
+    grid-column: 14;
+}
+#divQuinientosdos {
+    grid-row: 14;
+    grid-column: 15;
+}
+#divQuinientostres {
+    grid-row: 14;
+    grid-column: 17;
+}
+#divQuinientoscuatro {
+    grid-row: 14;
+    grid-column: 18;
+}
+#divQuinientoscinco {
+    grid-row: 15;
+    grid-column: 2;
+}
+#divQuinientosseis {
+    grid-row: 15;
+    grid-column: 3;
+}
+#divQuinientossiete {
+    grid-row: 15;
+    grid-column: 4;
+}
+#divQuinientosocho {
+    grid-row: 15;
+    grid-column: 5;
+}
+#divQuinientosnueve {
+    grid-row: 15;
+    grid-column: 6;
+}
+#divSeiscientos {
+    grid-row: 15;
+    grid-column: 8;
+}
+#divSeiscientosuno {
+    grid-row: 15;
+    grid-column: 9;
+}
+#divSeiscientosdos {
+    grid-row: 15;
+    grid-column: 11;
+}
+#divSeiscientostres {
+    grid-row: 15;
+    grid-column: 12;
+}
+#divSeiscientoscuatro {
+    grid-row: 15;
+    grid-column: 14;
+}
+#divSeiscientoscinco {
+    grid-row: 15;
+    grid-column: 15;
+}
+#divSeiscientosseis {
+    grid-row: 15;
+    grid-column: 17;
+}
+#divSeiscientossiete {
+    grid-row: 15;
+    grid-column: 18;
+}
+#divSeiscientosocho {
+    grid-row: 16;
+    grid-column: 2;
+}
+#divSeiscientosnueve {
+    grid-row: 16;
+    grid-column: 4;
+}
+#divSetecientos {
+    grid-row: 16;
+    grid-column: 5;
+}
+#divSetecientosuno {
+    grid-row: 16;
+    grid-column: 6;
+}
+#divSetecientosdos {
+    grid-row: 16;
+    grid-column: 7;
+}
+#divSetecientostres {
+    grid-row: 16;
+    grid-column: 8;
+}
+#divSetecientoscuatro {
+    grid-row: 16;
+    grid-column: 9;
+}
+#divSetecientoscinco {
+    grid-row: 16;
+    grid-column: 11;
+}
+#divSetecientosseis {
+    grid-row: 16;
+    grid-column: 12;
+}
+#divSetecientossiete {
+    grid-row: 16;
+    grid-column: 13;
+}
+#divSetecientosocho {
+    grid-row: 16;
+    grid-column: 14;
+}
+#divSetecientosnueve {
+    grid-row: 16;
+    grid-column: 15;
+}
+#divOchocientos {
+    grid-row: 16;
+    grid-column: 17;
+}
+#divOchocientosuno {
+    grid-row: 16;
+    grid-column: 18;
+}
+#divOchocientosdos {
+    grid-row: 17;
+    grid-column: 2;
+}
+#divOchocientostres {
+    grid-row: 17;
+    grid-column: 3;
+}
+#divOchocientoscuatro {
+    grid-row: 17;
+    grid-column: 4;
+}
+#divOchocientoscinco {
+    grid-row: 17;
+    grid-column: 6;
+}
+#divOchocientosseis {
+    grid-row: 17;
+    grid-column: 8;
+}
+#divOchocientossiete {
+    grid-row: 17;
+    grid-column: 9;
+}
+#divOchocientosocho {
+    grid-row: 17;
+    grid-column: 10;
+}
+#divOchocientosnueve {
+    grid-row: 17;
+    grid-column: 12;
+}
+#divNovecientos {
+    grid-row: 17;
+    grid-column: 13;
+}
+#divNovecientosuno {
+    grid-row: 17;
+    grid-column: 14;
+}
+#divNovecientosdos {
+    grid-row: 17;
+    grid-column: 16;
+}
+#divNovecientostres {
+    grid-row: 17;
+    grid-column: 17;
+}
+#divNovecientoscuatro {
+    grid-row: 18;
+    grid-column: 3;
+}
+#divNovecientoscinco {
+    grid-row: 18;
+    grid-column: 4;
+}
+#divNovecientosseis {
+    grid-row: 18;
+    grid-column: 6;
+}
+#divNovecientossiete {
+    grid-row: 18;
+    grid-column: 8;
+}
+#divNovecientosocho {
+    grid-row: 18;
+    grid-column: 10;
+}
+#divNovecientosnueve {
+    grid-row: 18;
+    grid-column: 11;
+}
+#divMil {
+    grid-row: 18;
+    grid-column: 15;
+}
+#divMiluno {
+    grid-row: 18;
+    grid-column: 16;
+}
+#divMildos {
+    grid-row: 19;
+    grid-column: 4;
+}
+#divMiltres {
+    grid-row: 19;
+    grid-column: 5;
+}
+#divMilcuatro {
+    grid-row: 19;
+    grid-column: 6;
+}
+#divMilcinco {
+    grid-row: 19;
+    grid-column: 7;
+}
+#divMilseis {
+    grid-row: 19;
+    grid-column: 8;
+}
+#divMilsiete {
+    grid-row: 19;
+    grid-column: 9;
+}
+#divMilocho {
+    grid-row: 19;
+    grid-column: 10;
+}
+#divMilnueve {
+    grid-row: 19;
+    grid-column: 11;
+}
+#divMildiez {
+    grid-row: 19;
+    grid-column: 12;
+}
+#divMilonce {
+    grid-row: 19;
+    grid-column: 13;
+}
+#divMildoce {
+    grid-row: 19;
+    grid-column: 14;
+}
+#divMiltrece {
+    grid-row: 19;
+    grid-column: 15;
+}
+#divMilcatorce {
+    grid-row: 20;
+    grid-column: 4;
+}
+#divMilquince {
+    grid-row: 20;
+    grid-column: 5;
+}
+#divMildieciseis {
+    grid-row: 20;
+    grid-column: 6;
+}
+#divMildiecisiete {
+    grid-row: 20;
+    grid-column: 7;
+}
+#divMildieciocho {
+    grid-row: 20;
+    grid-column: 8;
+}
+#divMildiecinueve {
+    grid-row: 20;
+    grid-column: 9;
+}
+#divMilveinte {
+    grid-row: 20;
+    grid-column: 10;
+}
+#divMilveintiuno {
+    grid-row: 20;
+    grid-column: 11;
+}
+#divMilveintidos {
+    grid-row: 20;
+    grid-column: 12;
+}
+#divMilveintitres {
+    grid-row: 20;
+    grid-column: 13;
+}
+#divMilveinticuatro {
+    grid-row: 20;
+    grid-column: 14;
+}
+#divMilveinticinco {
+    grid-row: 21;
+    grid-column: 4;
+}
+#divMilveintiseis {
+    grid-row: 21;
+    grid-column: 5;
+}
+#divMilveintisiete {
+    grid-row: 21;
+    grid-column: 6;
+}
+#divMilveintiocho {
+    grid-row: 21;
+    grid-column: 9;
+}
+#divMilveintinueve {
+    grid-row: 21;
+    grid-column: 10;
+}
+#divMiltreinta {
+    grid-row: 21;
+    grid-column: 11;
+}
+
+
+
+/////////////////////////////////SEGUNDO DIBUJO/////////////////////////////////
+
+////////////////////ESTRUCTURA///////////////////
+
+
+#gridContainerUno {
+    display: grid;
+    grid-template-columns: 50px 50px 50px 50px 50px 50px 50px 50px 50px 50px 50px 50px 50px 50px 50px;
+    grid-template-rows: 50px 50px 50px 50px 50px 50px 50px 50px 50px 50px 50px 50px 50px 50px 50px;
+    display: none;
+}
+
+////////////////////COLORES////////////////////
+
+$colorprincipal:black;
+$colorsecundary: #063d79;
+$colorterciary: #e93f33;
+$colorskin: #f5ba7f;
+
+////////////////////DIVS/PIXELS////////////////////
+
+.pixel {
+    width: 50px;
+    height: 50px;
+}
+
+#uno {
+    background-color: $colorprincipal;
+    grid-area: 2/6;
+}
+#dos {
+    background-color: $colorprincipal;
+    grid-area: 2/7;
+}
+#tres {
+    background-color: $colorprincipal;
+    grid-area: 2/8;
+}
+#cuatro {
+    background-color: $colorprincipal;
+    grid-area: 2/9;
+}
+#cinco {
+    background-color: $colorprincipal;
+    grid-area: 3/2;
+}
+#seis {
+    background-color: $colorprincipal;
+    grid-area: 3/5;
+}
+#siete {
+    background-color: $colorsecundary;
+    grid-area: 3/6;
+}
+#ocho {
+    background-color: $colorsecundary;
+    grid-area: 3/7;
+}
+#nueve {
+    background-color: $colorsecundary;
+    grid-area: 3/8;
+}
+#diez {
+    background-color: $colorsecundary;
+    grid-area: 3/9;
+}
+#once {
+    background-color: $colorprincipal;
+    grid-area: 3/10;
+}
+#doce {
+    background-color: $colorprincipal;
+    grid-area: 3/13;
+}
+#trece {
+    background-color: $colorprincipal;
+    grid-area: 4/1;
+}
+#catorce {
+    background-color: $colorprincipal;
+    grid-area: 4/3;
+}
+#quince {
+    background-color: $colorprincipal;
+    grid-area: 4/4;
+}
+#dieciseis {
+    background-color: $colorsecundary;
+    grid-area: 4/5;
+}
+#diecisiete {
+    background-color: $colorsecundary;
+    grid-area: 4/6;
+}
+#dieciocho {
+    background-color: $colorsecundary;
+    grid-area: 4/9;
+}
+#diecinueve {
+    background-color: $colorsecundary;
+    grid-area: 4/10;
+}
+#veinte {
+    background-color: $colorprincipal;
+    grid-area: 4/11;
+}
+#veintiUno {
+    background-color: $colorprincipal;
+    grid-area: 4/12;
+}
+#veintiDos {
+    background-color: $colorprincipal;
+    grid-area: 4/14;
+}
+#veintiTres {
+    background-color: $colorprincipal;
+    grid-area: 5/2;
+}
+#veintiCuatro {
+    background-color: $colorprincipal;
+    grid-area: 5/4;
+}
+#veintiCinco {
+    background-color: $colorsecundary;
+    grid-area: 5/5;
+}
+#veintiSeis {
+    background-color: $colorsecundary;
+    grid-area: 5/10;
+}
+#veintiSiete {
+    background-color: $colorprincipal;
+    grid-area: 5/11;
+}
+#veintiOcho {
+    background-color: $colorprincipal;
+    grid-area: 5/13;
+}
+#veintiNueve {
+    background-color: $colorprincipal;
+    grid-area: 6/3;
+}
+#treinta {
+    background-color: $colorprincipal;
+    grid-area: 6/4;
+}
+#treintaUno {
+    background-color: $colorsecundary;
+    grid-area: 6/5;
+}
+#treintaDos {
+    background-color: $colorsecundary;
+    grid-area: 6/6;
+}
+#treintaTres {
+    background-color: $colorsecundary;
+    grid-area: 6/7;
+}
+#treintaCuatro {
+    background-color: $colorsecundary;
+    grid-area: 6/8;
+}
+#treintaCinco {
+    background-color: $colorsecundary;
+    grid-area: 6/9;
+}
+#treintaSeis {
+    background-color: $colorsecundary;
+    grid-area: 6/10;
+}
+#treintaSiete {
+    background-color: $colorprincipal;
+    grid-area: 6/11;
+}
+#treintaOcho {
+    background-color: $colorprincipal;
+    grid-area: 6/12;
+}
+#treintaNueve {
+    background-color: $colorprincipal;
+    grid-area: 7/4;
+}
+#cuarenta {
+    background-color: $colorsecundary;
+    grid-area: 7/5;
+}
+#cuarentaUno {
+    background-color: $colorprincipal;
+    grid-area: 7/6;
+}
+#cuarentaDos {
+    background-color: $colorsecundary;
+    grid-area: 7/7;
+}
+#cuarentaTres {
+    background-color: $colorsecundary;
+    grid-area: 7/8;
+}
+#cuarentaCuatro {
+    background-color: $colorprincipal;
+    grid-area: 7/9;
+}
+#cuarentaCinco {
+    background-color: $colorsecundary;
+    grid-area: 7/10;
+}
+#cuarentaSeis {
+    background-color: $colorprincipal;
+    grid-area: 7/11;
+}
+#cuarentaSiete {
+    background-color: $colorprincipal;
+    grid-area: 8/3;
+}
+#cuarentaOcho {
+    background-color: $colorprincipal;
+    grid-area: 8/4;
+}
+#cuarentaNueve {
+    background-color: $colorskin;
+    grid-area: 8/5;
+}
+#cincuenta {
+    background-color: $colorprincipal;
+    grid-area: 8/6;
+}
+#cincuentaUno {
+    background-color: $colorskin;
+    grid-area: 8/7;
+}
+#cincuentaDos {
+    background-color: $colorskin;
+    grid-area: 8/8;
+}
+#cincuentaTres{
+    background-color: $colorprincipal;
+    grid-area: 8/9;
+}
+#cincuentaCuatro {
+    background-color: $colorskin;
+    grid-area: 8/10;
+}
+#cincuentaCinco {
+    background-color: $colorprincipal;
+    grid-area: 8/11;
+}
+#cincuentaSeis {
+    background-color: $colorprincipal;
+    grid-area: 8/12;
+}
+#cincuentaSiete {
+    background-color: $colorprincipal;
+    grid-area: 9/2;
+}
+#cincuentaOcho {
+    background-color: $colorsecundary;
+    grid-area: 9/3;
+}
+#cincuentaNueve {
+    background-color: $colorsecundary;
+    grid-area: 9/4;
+}
+#sesenta {
+    background-color: $colorprincipal;
+    grid-area: 9/5;
+}
+#sesentaUno {
+    background-color: $colorskin;
+    grid-area: 9/6;
+}
+#sesentaDos {
+    background-color: $colorskin;
+    grid-area: 9/7;
+}
+#sesentaTres {
+    background-color: $colorskin;
+    grid-area: 9/8;
+}
+#sesentaCuatro {
+    background-color: $colorskin;
+    grid-area: 9/9;
+}
+#sesentaCinco {
+    background-color: $colorprincipal;
+    grid-area: 9/10;
+}
+#sesentaSeis {
+    background-color: $colorsecundary;
+    grid-area: 9/11;
+}
+#sesentaSiete {
+    background-color: $colorsecundary;
+    grid-area: 9/12;
+}
+#sesentaOcho {
+    background-color: $colorprincipal;
+    grid-area: 9/13;
+}
+#sesentaNueve {
+    background-color: $colorprincipal;
+    grid-area: 10/1;
+}
+#ochenta {
+    background-color: $colorsecundary;
+    grid-area: 10/2;
+}
+#ochentaUno {
+    background-color: $colorsecundary;
+    grid-area: 10/3;
+}
+#ochentaDos {
+    background-color: $colorsecundary;
+    grid-area: 10/4;
+}
+#ochentaTres {
+    background-color: $colorsecundary;
+    grid-area: 10/5;
+}
+#ochentaCuatro {
+    background-color: $colorprincipal;
+    grid-area: 10/6;
+}
+#ochentaCinco {
+    background-color: $colorprincipal;
+    grid-area: 10/7;
+}
+#ochentaSeis {
+    background-color: $colorprincipal;
+    grid-area: 10/8;
+}
+#ochentaSiete {
+    background-color: $colorprincipal;
+    grid-area: 10/9;
+}
+#ochentaOcho {
+    background-color: $colorsecundary;
+    grid-area: 10/10;
+}
+#ochentaNueve {
+    background-color: $colorsecundary;
+    grid-area: 10/11;
+}
+#noventa {
+    background-color: $colorterciary;
+    grid-area: 10/12;
+}
+#noventaUno {
+    background-color: $colorterciary;
+    grid-area: 10/13;
+}
+#noventaDos {
+    background-color: $colorprincipal;
+    grid-area: 10/14;
+}
+#noventaTres {
+    background-color: $colorprincipal;
+    grid-area: 11/1;
+}
+#noventaCuatro {
+    background-color: $colorterciary;
+    grid-area: 11/2;
+}
+#noventaCinco {
+    background-color: $colorterciary;
+    grid-area: 11/3;
+}
+#noventaSeis {
+    background-color: $colorprincipal;
+    grid-area: 11/4;
+}
+#noventaSiete {
+    background-color: $colorsecundary;
+    grid-area: 11/5;
+}
+#noventaOcho {
+    background-color: $colorsecundary;
+    grid-area: 11/6;
+}
+#noventaNueve {
+    background-color: $colorsecundary;
+    grid-area: 11/9;
+}
+#cien {
+    background-color: $colorsecundary;
+    grid-area: 11/10;
+}
+#cienUno {
+    background-color: $colorprincipal;
+    grid-area: 11/11;
+}
+#cienDos {
+    background-color: $colorterciary;
+    grid-area: 11/12;
+}
+#cienTres {
+    background-color: $colorterciary;
+    grid-area: 11/13;
+}
+#cienCuatro {
+    background-color: $colorprincipal;
+    grid-area: 11/14;
+}
+#cienCinco {
+    background-color: $colorprincipal;
+    grid-area: 12/1;
+}
+#cienSeis {
+    background-color: $colorterciary;
+    grid-area: 12/2;
+}
+#cienSiete {
+    background-color: $colorterciary;
+    grid-area: 12/3;
+}
+#cienOcho {
+    background-color: $colorprincipal;
+    grid-area: 12/4;
+}
+#cienNueve {
+    background-color: $colorterciary;
+    grid-area: 12/5;
+}
+#cienDiez {
+    background-color: $colorterciary;
+    grid-area: 12/7;
+}
+#cienOnce {
+    background-color: $colorterciary;
+    grid-area: 12/9;
+}
+#cienDoce {
+    background-color: $colorprincipal;
+    grid-area: 12/11;
+}
+#cienTrece {
+    background-color: $colorprincipal;
+    grid-area: 12/12;
+}
+#cienCatorce {
+    background-color: $colorprincipal;
+    grid-area: 12/13;
+}
+#cienQuince {
+    background-color: $colorprincipal;
+    grid-area: 13/2;
+}
+#cienDieciseis {
+    background-color: $colorprincipal;
+    grid-area: 13/3;
+}
+#cienDiecisiete {
+    background-color: $colorprincipal;
+    grid-area: 13/4;
+}
+#cienDieciocho {
+    background-color: $colorterciary;
+    grid-area: 13/5;
+}
+#cienDiecinueve {
+    background-color: $colorterciary;
+    grid-area: 13/7;
+}
+#cienVeinte {
+    background-color: $colorterciary;
+    grid-area: 13/9;
+}
+#cienVeintiuno {
+    background-color: $colorprincipal;
+    grid-area: 13/11;
+}
+#cienVeintidos {
+    background-color: $colorprincipal;
+    grid-area: 14/4;
+}
+#cienVeintitres {
+    background-color: $colorsecundary;
+    grid-area: 14/5;
+}
+#cienVeinticuatro {
+    background-color: $colorsecundary;
+    grid-area: 14/6;
+}
+#cienVeinticinco {
+    background-color: $colorsecundary;
+    grid-area: 14/7;
+}
+#cienVeintiseis {
+    background-color: $colorprincipal;
+    grid-area: 14/8;
+}
+#cienVeintisiete {
+    background-color: $colorsecundary;
+    grid-area: 14/9;
+}
+#cienVeintiocho {
+    background-color: $colorsecundary;
+    grid-area: 14/10;
+}
+#cienVeintinueve {
+    background-color: $colorprincipal;
+    grid-area: 14/11;
+}
+#cienTreinta {
+    background-color: $colorprincipal;
+    grid-area: 15/4;
+}
+#cienTreintauno {
+    background-color: $colorterciary;
+    grid-area: 15/5;
+}
+#cienTreintados {
+    background-color: $colorterciary;
+    grid-area: 15/6;
+}
+#cienTreintatres {
+    background-color: $colorterciary;
+    grid-area: 15/7;
+}
+#cienTreintacuatro {
+    background-color: $colorprincipal;
+    grid-area: 15/8;
+}
+#cienTreintacinco {
+    background-color: $colorterciary;
+    grid-area: 15/9;
+}
+#cienTreintaseis {
+    background-color: $colorprincipal;
+    grid-area: 15/10;
+}
+#cienTreintasiete {
+    background-color: $colorprincipal;
+    grid-area: 16/5;
+}
+#cienTreintaocho {
+    background-color: $colorterciary;
+    grid-area: 16/6;
+}
+#cienTreintanueve {
+    background-color: $colorterciary;
+    grid-area: 16/7;
+}
+#cienCuarenta {
+    background-color: $colorprincipal;
+    grid-area: 16/8;
+}
+#cienCuarentauno {
+    background-color: $colorprincipal;
+    grid-area: 16/9;
+}
+#cienCuarentados {
+    background-color: $colorprincipal;
+    grid-area: 17/6;
+}
+#cienCuarentatres {
+    background-color: $colorprincipal;
+    grid-area: 17/7;
+}
+
+@media only screen and (max-width: 500px) {
+    #gridContainer{
+        display: none;
+    }
+    #gridContainerUno{
+        display: grid;
+    }
+  }
