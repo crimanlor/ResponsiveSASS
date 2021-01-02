@@ -11,8 +11,7 @@ Realizar dos dibujos utilizando HTML, CSS y SASS. El dibujo principal ha de visu
 
 ## Demo 📺
 
-![Imagen Desktop](imagen1.jpg)
-![Imagen Mobile](imagen2.jpg)
+![Imagen Desktop](demo.jpg)
 
 ## Deploy ejercicio en Github pages 📱
 
