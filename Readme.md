@@ -15,4 +15,4 @@ Realizar dos dibujos utilizando HTML, CSS y SASS. El dibujo principal ha de visu
 
 ## Deploy ejercicio en Github pages 📱
 
-https://crimanlor.github.io/Task1_responsive_SASS/
+https://responsivesass.netlify.app/
